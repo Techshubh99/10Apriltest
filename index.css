@@ -1,0 +1,47 @@
+body {
+  background-image:url(SVG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color:yellow;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+#input_value {
+  font-size: 27px;
+  padding: 10px;
+  background-color: #e7e7e7;
+  border: 2px solid #0000ff;
+  border-radius: 5px 0px 0px 5px;
+  border-right: none;
+}
+#input_value:hover {
+  border-style: none;
+}
+#submit {
+  padding: 18px 7px;
+  font-weight: bold;
+  border-radius: 0px 5px 5px 0px;
+  border: 2px solid #0000ff;
+  border-left: 2px solid #000000;
+}
+.Show_result{
+    height: 130px;
+    width: 400px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color:#e7e7e7;
+    border: 2px solid red;
+}
+.Show_result ,h2, p{
+    text-align: center;
+}
